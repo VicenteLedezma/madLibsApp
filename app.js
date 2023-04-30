@@ -6,4 +6,8 @@ One day, he found a big juicy ${usersInputs[2]} and he immediately grabbed it be
   He wanted that ${usersInputs[2]} for himself too. But as he opened his mouth,
    the ${usersInputs[2]} he was biting fell into the river and sank. That night, he went home ${usersInputs[3]}.`);
 
-numberOfQuestions = 4;
+const numberOfQuestions = 4;
+let questionArray = ["Enter a subject","Enter a word","Enter an object","Enter an adjective"];
+for(let i = numberOfQuestions;i >= 0; i--){
+    console.log(i);
+}
