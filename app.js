@@ -8,6 +8,9 @@ One day, he found a big juicy ${usersInputs[2]} and he immediately grabbed it be
 
 const numberOfQuestions = 4;
 let questionArray = ["Enter a subject","Enter a word","Enter an object","Enter an adjective"];
+let questionCounter = 0;
 for(let i = numberOfQuestions;i >= 0; i--){
+    questionCounter ++;
+    console.log(questionCounter);
     console.log(i);
 }
