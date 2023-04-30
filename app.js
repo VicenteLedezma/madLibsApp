@@ -12,4 +12,6 @@ let questionCounter = 0;
 for(let i = numberOfQuestions;i > 0; i--){
     console.log(questionArray[questionCounter]);
     questionCounter ++;
+    console.log(`number of questions left : ${numberOfQuestions - questionCounter}`)
+
 }
