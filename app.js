@@ -5,3 +5,5 @@ One day, he found a big juicy ${usersInputs[2]} and he immediately grabbed it be
  On his way home, he crossed a river and saw another ${usersInputs[0]} who also had a ${usersInputs[2]} in its mouth.
   He wanted that ${usersInputs[2]} for himself too. But as he opened his mouth,
    the ${usersInputs[2]} he was biting fell into the river and sank. That night, he went home ${usersInputs[3]}.`);
+
+numberOfQuestions = 4;
