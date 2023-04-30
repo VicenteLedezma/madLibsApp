@@ -10,8 +10,9 @@ const numberOfQuestions = 4;
 let questionArray = ["Enter a subject","Enter a word","Enter an object","Enter an adjective"];
 let questionCounter = 0;
 for(let i = numberOfQuestions;i > 0; i--){
-    console.log(questionArray[questionCounter]);
+    //usersInputs.push(prompt(questionArray[questionCounter]));
     questionCounter ++;
     console.log(`number of questions left : ${numberOfQuestions - questionCounter}`)
-
+    console.log(usersInputs);
 }
+alert('All done! Ready for your totally-accurate, not-at-all confusing history of tech??');
